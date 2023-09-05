@@ -1,0 +1,71 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: rgb(22, 150, 150);
+    min-height: 100vh;
+    border: 10px solid whitesmoke;
+}
+
+.content {
+    max-width:900px;
+    margin: 0 auto;
+}
+
+.top_section{
+    margin-top: 100px;
+    display:flex;
+    justify-content: space-between;
+    align-items:flex-end;
+}
+
+.top_section h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: skyblue;
+    text-transform:uppercase;
+}
+.top_section h3  {
+    font-size: 30px;
+    text-align: end;
+}    
+
+.top_section p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.image_container,
+img{
+    width:250px;
+    height: 270px;
+}
+table {
+    font-family: Arial, sans-serif;
+    border-collapse: left;
+    width: 100%;
+}
+
+th {
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px
+}
+tr:nth-child(even){
+background-color: skyblue;
+}
+
+.Working-Experience {
+    margin-top:50px;
+}
+
+.biography_section 
+
+
+
+
+
+
